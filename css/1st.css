@@ -1,0 +1,207 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(231, 231, 231);
+    overflow-x: hidden;
+    transition: all 1.5s ease ease-in-out .5s;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+}
+.header-h1,h4{
+    text-align: center;
+}
+.header{
+    margin-top: 50px;
+}
+.header span{
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+}
+.padding button{
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid rgb(133, 133, 133);
+}
+.header-div{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: auto;
+    box-shadow: 0px 5px 20px 0px rgb(102, 102, 102);
+}
+.header-div2 img{
+    width: 100%;
+}
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.section1 img{
+    width: 100%;
+}
+.padding{
+    padding: 10px;
+    width: 97%;
+}
+.header-div2{
+    box-shadow: 0px 5px 20px 0px rgb(102, 102, 102);
+    width: 100%;
+}
+.header-div1{
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    height: 450px;
+    box-shadow: 0px 5px 20px 0px rgb(102, 102, 102);
+    box-sizing: border-box;
+}
+.main-div{
+    background-color: rgb(255, 255, 255);
+    width: 60.1%;
+    margin-top: 50px;
+    margin: 22px !important;
+}
+.main-div p{
+    padding: 10px;
+    line-height: 1.5;
+}
+.main-div h2{
+    padding: 10px;
+}
+.main-div span{
+    margin-top: 30px;
+}
+.main-div button{
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid rgb(133, 133, 133);
+}
+.span-footer{
+    padding: 5px 8px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    margin-right: 10px;
+}
+.right-section{
+    width: 100%;
+    background-color: white;
+    height: 450px;
+    box-shadow: 0px 5px 20px 0px rgb(102, 102, 102);
+    font-size: 14px;
+}
+.right-section h2{
+    padding: 10px;
+    padding-left: 10px;
+}
+.padding1{
+    border-bottom: 1px solid rgb(172, 172, 172);
+    padding: 8px;
+    padding-bottom: 20px;
+}
+.padding1 img{
+    float: left;
+    width: 70px;
+}
+.padding1 span{
+    padding: 10px;
+}
+.right-div1{
+    margin-top: 70px;
+    background-color: white;
+    height: 180px;
+    width: 100%;
+    box-shadow: 0px 5px 20px 0px rgb(102, 102, 102);
+}
+.right-div1 h2{
+    padding: 10px;
+    padding-left: 10px;
+    background-color:rgb(207, 207, 207);
+}
+.right-div1 span{
+    padding: 2px;
+    background-color: rgb(224, 224, 224);
+}
+.travel{
+    color: rgb(255, 255, 255);
+    padding: 3px 8px !important;
+}
+.tags{
+    margin: 2px;
+}
+.footer-div{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: center;
+}
+.footer-div2{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 30px;
+}
+.tags1{
+    margin: 2px;
+}
+.tags2{
+    margin: 2px;
+}
+.footer-div3{
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+.footerdiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #616161;
+    margin-top: 100px;
+}
+.footerdiv button{
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+.last-div{
+    margin: 20px;
+    color: white;
+}
+.last-div a{
+    color: white;
+}
+.comment{
+    padding: 2px 7px;
+    background-color: #000000;
+    color: white;
+}
+.padding button:hover{
+    background-color: #b8b8b8;
+    cursor: pointer;
+}
+.main-div button:hover{
+    background-color: #b8b8b8;
+    cursor: pointer;
+}
+.previous:hover{
+    background-color: #c2c2c2;
+    color: #000000;
+    cursor:not-allowed;
+}
+.next button:hover{
+    background-color: #c2c2c2;
+    color: #000000;
+}
+.previous{
+    opacity: 0.6;
+}
+.padding1:hover{
+    background-color: #c2c2c2;
+}

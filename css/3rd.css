@@ -1,0 +1,403 @@
+body{
+    margin: 0 auto;
+    font-family: "Open Sans";
+    overflow-x: hidden;
+    background-color: rgb(233, 233, 233);
+    transition: ease-in-out 0.3s;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+}
+.bi{
+    vertical-align: middle;
+    color: white;
+    padding: 10px;
+}
+.bi-search{
+    float: right;
+    padding: 9px 11px;
+    margin-top: -6px;
+}
+.section1{
+    text-align: center;
+}
+.section1 h1{
+    font-size: 40px;
+}
+.section1 span{
+    background-color: black;
+    color: white;
+    padding: 5px 8px;
+}
+.jane{
+    position: relative;
+}
+.jane img{
+    width: 100%;
+    height: auto;
+}
+.absolute{
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    left: 2%;
+    transform: translate(0%,50%);
+    font-size: xx-large;
+    letter-spacing: 2px;
+}
+.jane button{
+    width: 140px;
+    height: 50px;
+    opacity: .7;
+    cursor: pointer;
+}
+.main-div h1{
+    color: black;
+    text-align: center;
+}
+.main-div p{
+    color: black;
+}
+.main-div1 p{
+    color: black;
+    text-align: center;
+}
+.section2{
+    display: inline-block;
+    width: 60%;
+    height: auto;
+    color: rgb(250, 250, 250);
+    background-color: rgb(255, 255, 255);
+    margin: 40px;
+}
+.section2 img{
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+}
+.text1 p{
+    text-align: left;
+    font-size: 17px;
+}
+.george-div{
+    color: black;
+}
+.text1{
+    padding: 20px;
+}
+.text1 button{
+    width: 80px;
+    height: 40px;
+}
+.bi-hand-thumbs-up-fill{
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    margin: 2px;
+}
+.last-div{
+    display: flex;
+    justify-content: space-between;
+}
+.last-div1{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    width: 104px !important;
+    padding: 10px 12px;
+    background-color: black;
+    color: white;
+}
+.button2{
+    width: 104px !important;
+    padding: 10px 12px;
+    background-color: black;
+    color: white;
+}
+.button6{
+    /* width: 104px !important; */
+    padding: 10px 12px;
+    background-color: black;
+    color: white;
+}
+.last-div span{
+    padding: 4px 10px;
+    color: black;
+    background-color: white;
+}
+.last-div1 span{
+    padding: 4px 10px;
+    color: black;
+    background-color: white;
+}
+.section1-footer img{
+    padding: 20px;
+    width: 80px;
+    float: left;
+}
+.section1-footer{
+    width: 40%;
+    display: inline-block;
+}
+.main-div1{
+    display: inline-block;
+    width: 60%;
+    height: auto;
+    color: rgb(250, 250, 250);
+    background-color: rgb(255, 255, 255);
+    margin: 40px;
+}
+.main-div1 img{
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+}
+.main-div1 p{
+    font-size: 17px;
+    padding: 20px;
+    text-align: left;
+}
+.header-div{
+    text-align: center;
+}
+.section3{
+    padding: 14px;
+    width: 30.9%;
+    float: right;
+}
+.section3 img{
+    width: 100%;
+}
+.relative-div{
+    background-color: black;
+    margin: 8px;
+    padding: 1px 0px;
+    height: auto;
+}
+.side-section1 p{
+    padding: 15px;
+}
+.relative-div h3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.relative-div p{
+    color: white;
+}
+.side-section{
+    width: 97%;
+    margin: 0 auto;
+    height: auto;
+    background-color: white;
+}
+.side-section h3{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.side-section p{
+    margin: 10px;
+}
+.side-section img{
+    float: left;
+    width: 60px;
+    margin-right: 15px;
+}
+.box-1{
+    padding: 10px;
+}
+.box-2{
+    padding: 10px;
+}
+.box-3{
+    padding: 10px;
+}
+.box-4{
+    padding: 10px;
+}
+.side-section2{
+    width: 97%;
+    margin: 0 auto;
+    height: 300px;
+    background-color: white;
+}
+.side-section2 h3{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.ad-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    background-color:rgb(204, 204, 204) ;
+}
+.side-section3{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+.ad-div1{
+    padding: 10px;
+    margin-left: 10px;
+}
+.Fashion{
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+.span-div{
+    background-color: rgb(216, 216, 216);
+    color: black;
+    padding: 2px;
+}
+.span-div1{
+    background-color: rgb(216, 216, 216);
+    color: black;
+    padding: 2px;
+    margin-top: 5px;
+}
+.ad-div1 div{
+    margin-top: 20px;
+}
+.side-section4{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.side-section4 img{
+    width: 45%;
+    margin: 9px;
+}
+.side-section5{
+    background-color: white;
+}
+.social-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-div i{
+    color: black;
+    font-size: 22px;
+}
+.side-section6{
+    background-color: white;
+}
+.side-section6 input{
+    width: 90%;
+    height: 40px;
+    margin: 4%;
+}
+.side-section6 button{
+    width: 92%;
+    border-radius: 5px;
+    height: 40px;
+    margin: 4%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.flex-div{
+    display: flex;
+    flex-direction: column;
+}
+.div-footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(61, 61, 61);
+}
+.div-footer a{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: large;
+}
+.powered-by{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 2%;
+    font-size: 17px;
+}
+.powered-by a{
+    color: white;
+    /* text-decoration: none; */
+}
+.jane button:hover{
+   background-color: rgb(199, 199, 199);
+   color: rgb(0, 0, 0);
+}
+.side-section div:hover{
+    cursor: pointer;
+    background-color: rgb(207, 207, 207);
+}
+.last-div button:hover{
+    cursor: pointer;
+    background-color: rgb(146, 146, 146);
+    color: black;
+}
+.last-div1 button:hover{
+    cursor: pointer;
+    background-color: rgb(146, 146, 146);
+    color: black;
+}
+.social-div i:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+.flex-div button:hover{
+    background-color: rgb(173, 173, 173);
+    color: black;
+    cursor: pointer;
+}
+.bi i:hover{
+    color: rgb(173, 173, 173);
+    cursor: pointer;
+}
+.div-footer a:hover{
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+    color: black;
+    transition: all;
+    transition: ease-in-out 0.3s;
+}
+@media(max-width: 1204px){
+    .section2{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .section3{
+        width: 100%;
+        padding: 0px;
+    }
+    .relative-div img{
+        width: 100%;
+    }
+    .relative-div{
+        width: 97%;
+        margin: 0 auto;
+    }
+    .main-div1{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media(max-width: 600px){
+    .absolute h1{
+        display: none;
+    }
+}
