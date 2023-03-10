@@ -1,0 +1,218 @@
+body{
+    width: 100%;
+    font-family: "Inconsolata", sans-serif;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.header{
+    position: fixed;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section1 img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    filter: grayscale(40%);
+}
+.section1{
+    position: relative;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.absolute h1{
+    font-size: 70px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+.absolute1{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    padding: 0px 20px;
+}
+.absolute1 h5{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.absolute2{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    padding: 0px 20px;
+    color: white;
+}
+.section2{
+    width: 60%;
+    margin: 0 auto;
+}
+.section2 h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    padding: 5px;
+    width: 200px;
+    margin: 0 auto;
+}
+.section2 p{
+    line-height: 40px;
+    font-family: 'Rubik Bubbles';
+    font-size: 20px;
+}
+.section2-p{
+    margin: 0 auto;
+}
+.section2-1{
+    background-color: rgb(238, 238, 238);
+    height: auto;
+    border-left: 7px solid rgb(143, 143, 143);
+}
+.section2-1 p{
+    padding-left: 10px;
+    font-family: 'Shantell Sans', cursive;
+}
+.menu-div{
+    width: 100px !important;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.section2-3{
+    height: 1100px;
+    box-shadow: 0px 10px 15px 0px  rgb(148, 148, 148);
+    width: 100% !important;
+}
+.first-div{
+    width: 47.5%;
+    height: 20px;
+    box-shadow: 0px 10px 15px 0px  rgb(148, 148, 148);
+    padding: 10px;
+    position: relative;
+}
+.second-div{
+    width: 47.6%;
+    height: 20px;
+    box-shadow: 0px 10px 15px 0px  rgb(148, 148, 148);
+    padding: 10px;
+    position: relative;
+    float: right;
+}
+.first-div h3{
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(107, 107, 107);
+    padding: 0px 44%;
+    color: white;
+    font-weight: 100;
+}
+.second-div h3{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,-50%);
+    padding: 0px 42%;
+    color: black;
+    font-weight: 100;
+}
+.inner-div h1{
+    padding: 10px;
+    font-family: 'Shantell Sans', cursive;
+    font-size: larger;
+    width: 500px;
+}
+.inner-div p{
+    padding: 10px;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 17px;
+    opacity: .8;
+    width: 300px;
+}
+.inner-div{
+    height: auto;
+    width: 100%;
+}
+.img{
+    filter: grayscale(50%);
+    max-width: 100%;
+}
+.section4{
+    width: 60%;
+    margin: 0 auto;
+}
+.section4 h4{
+    background-color: black;
+    color: white;
+    padding: 6px 8px;
+    letter-spacing: 3px;
+    font-weight: 200;
+    width: 210px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section4 p{
+    text-align: left;
+    font-family: 'Shantell Sans', cursive;
+}
+.section4 img{
+    width: 100%;
+}
+.section4 :nth-child(5){
+    background-color: black;
+    color: white;
+    padding: 6px;
+    width: auto;
+    display: inline-block;
+}
+.input-div input{
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+button{
+    margin-top: 10px;
+    padding: 20px;
+    width: 200px;
+}
+.last-div{
+    width: auto;
+    height: 140px;
+    background-color: rgb(228, 228, 228);
+}
+.last-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width: 1000px){
+    .section2{
+        width: 70%;
+    }
+}
+@media(max-width: 630px){
+    .section1 img{
+        min-width: 100%;
+    }
+}
